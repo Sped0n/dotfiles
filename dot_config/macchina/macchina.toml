@@ -1,0 +1,14 @@
+theme = "catppuccin"
+
+long_uptime = true
+
+long_shell = false
+
+show = [
+  "OperatingSystem",
+  "Processor",
+  "Battery",
+  "Shell",
+  "Packages",
+  "Uptime",
+]
