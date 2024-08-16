@@ -65,7 +65,7 @@ config.color_scheme = "Gruvbox Dark (Gogh)"
 -- }
 
 -- fps
-config.max_fps = 100
+config.max_fps = 120
 config.front_end = "WebGpu"
 
 -- scrollback line
