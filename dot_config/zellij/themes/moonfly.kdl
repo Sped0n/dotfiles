@@ -1,0 +1,15 @@
+themes {
+  moonfly {
+    fg "#bdbdbd"
+    bg "#080808"
+    black "#323437"
+    red "#ff5454"
+    green "#8cc85f"
+    yellow "#e3c78a"
+    blue "#80a0ff"
+    magenta "#cf87e8"
+    cyan "#79fac8"
+    white "#c6c6c6"
+    orange "#e3c78a"
+  }
+}
