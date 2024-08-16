@@ -29,7 +29,7 @@ config.window_padding = {
 config.use_fancy_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
 config.force_reverse_video_cursor = true
-config.color_scheme = "Gruvbox Dark (Gogh)"
+config.color_scheme = "Moonfly (Gogh)"
 
 -- config.colors = {
 -- 	foreground = "#dcd7ba",
