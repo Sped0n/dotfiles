@@ -7,6 +7,9 @@ alias xcd='cd "$(xplr --print-pwd-as-result)"'
 # nvim gcc (for treeshitter)
 alias nvim="CC='/opt/homebrew/bin/gcc-13' nvim"
 
+# brew auto update
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # eza
 alias exa="eza"
 
@@ -97,4 +100,5 @@ esac
 # macchina
 macchina
 
+# STM32CubeMX
 export STM32CubeMX_PATH=/Applications/STMicroelectronics/STM32CubeMX.app/Contents/Resources
