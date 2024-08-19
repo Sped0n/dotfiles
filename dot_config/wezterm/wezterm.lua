@@ -28,41 +28,55 @@ config.window_padding = {
 -- tab bar
 config.use_fancy_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
-config.force_reverse_video_cursor = true
-config.color_scheme = "Moonfly (Gogh)"
 
--- config.colors = {
--- 	foreground = "#dcd7ba",
--- 	background = "#1f1f28",
---
--- 	cursor_bg = "#c8c093",
--- 	cursor_fg = "#c8c093",
--- 	cursor_border = "#c8c093",
---
--- 	selection_fg = "#c8c093",
--- 	selection_bg = "#2d4f67",
---
--- 	scrollbar_thumb = "#16161d",
--- 	split = "#16161d",
---
--- 	ansi = { "#090618", "#c34043", "#76946a", "#c0a36e", "#7e9cd8", "#957fb8", "#6a9589", "#c8c093" },
--- 	brights = { "#727169", "#e82424", "#98bb6c", "#e6c384", "#7fb4ca", "#938aa9", "#7aa89f", "#dcd7ba" },
--- 	indexed = { [16] = "#ffa066", [17] = "#ff5d62" },
--- 	tab_bar = {
--- 		background = "1F1F28",
---
--- 		active_tab = {
--- 			fg_color = "#1F1F28",
--- 			bg_color = "#DCD7BA",
--- 			intensity = "Bold",
--- 		},
---
--- 		inactive_tab = {
--- 			fg_color = "#DCD7BA",
--- 			bg_color = "#1F1F28",
--- 		},
--- 	},
--- }
+-- color scheme
+config.color_scheme = "VSCodeDark+ (Gogh)"
+config.colors = {
+	foreground = "#d4d4d4",
+	background = "#1f1f1f",
+
+	cursor_bg = "#d4d4d4",
+	cursor_fg = "#1f1f1f",
+	cursor_border = "#d4d4d4",
+
+	selection_fg = "#dcdcaa",
+	selection_bg = "#dcdcaa",
+
+	ansi = {
+		"#1f1f1f",
+		"#f44747",
+		"#608b4e",
+		"#dcdcaa",
+		"#569cd6",
+		"#c678dd",
+		"#56b6c2",
+		"#d4d4d4",
+	},
+	brights = {
+		"#808080",
+		"#f44747",
+		"#608b4e",
+		"#dcdcaa",
+		"#569cd6",
+		"#c678dd",
+		"#56b6c2",
+		"#d4d4d4",
+	},
+	tab_bar = {
+		background = "#333333",
+
+		active_tab = {
+			fg_color = "#d4d4d4",
+			bg_color = "#1f1f1f",
+			intensity = "Bold",
+		},
+
+		inactive_tab = {
+			fg_color = "#d4d4d4",
+			bg_color = "#333333",
+		},
+	},
+}
 
 -- fps
 config.max_fps = 120
