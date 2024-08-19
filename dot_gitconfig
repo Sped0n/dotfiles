@@ -2,6 +2,7 @@
   name = Spedon Wen
   email = realsped0n@outlook.com
   username = Sped0n
+	signingkey = BC705B4929716A2B
 
 [core]
   excludesfile = /Users/spedon/.gitignore_global
@@ -9,6 +10,7 @@
 [commit]
   template = /Users/spedon/.config/git/template/.git-commit-template.txt
 	cleanup = strip
+	gpgsign = true
 
 [core]
   editor = nvim
