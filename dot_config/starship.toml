@@ -24,7 +24,7 @@ format = '[$symbol$environment]($style) '
 
 [python]
 symbol = 'py'
-version_format = '${major}.${minor}'
+version_format = '${major}.${minor}.${patch}'
 format = 'via [${symbol}(${version} )]($style)'
 
 [rust]
