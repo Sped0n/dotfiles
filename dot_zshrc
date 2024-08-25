@@ -4,6 +4,9 @@ eval "$(starship init zsh)"
 # nvim gcc (for treeshitter)
 alias nvim="CC='/opt/homebrew/bin/gcc-13' nvim"
 
+# local bin
+export PATH="$PATH:/Users/spedon/.local/bin"
+
 # brew auto update
 export HOMEBREW_NO_AUTO_UPDATE=1
 
@@ -20,7 +23,6 @@ export PATH="$PATH:/Users/spedon/bin"
 export PATH="$PATH:/Users/spedon/.bun/bin"
 
 # matlab bin
-export PATH="$PATH:/Applications/MATLAB_R2024a.app/bin"
 export PATH="$PATH:/Applications/MATLAB_R2024a.app/bin/maca64"
 
 # default editor
