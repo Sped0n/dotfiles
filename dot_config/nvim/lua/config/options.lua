@@ -4,3 +4,4 @@
 
 vim.g.lazyvim_python_lsp = "basedpyright"
 vim.g.trouble_lualine = false
+vim.opt.clipboard = ""
