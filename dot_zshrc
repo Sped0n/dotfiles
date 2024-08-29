@@ -32,7 +32,7 @@ export EDITOR=nvim
 export TERM=wezterm
 
 # fzf
-eval "$(fzf --zsh)"
+source <(fzf --zsh)
 # export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
 #     --color=fg:#e5e9f0,bg:#3b4252,hl:#81a1c1
 #     --color=fg+:#e5e9f0,bg+:#3b4252,hl+:#81a1c1
