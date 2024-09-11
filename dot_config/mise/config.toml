@@ -2,3 +2,6 @@
 python = "3.11"
 node = "20"
 
+[settings]
+disable_hints = ["python_multi"]
+
