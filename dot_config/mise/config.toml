@@ -4,4 +4,4 @@ node = "20"
 
 [settings]
 disable_hints = ["python_multi"]
-
+trusted_config_paths = ['~/eden']
