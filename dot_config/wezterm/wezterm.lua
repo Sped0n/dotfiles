@@ -160,6 +160,7 @@ config.keys = {
 	{ key = "R", mods = "SHIFT|CTRL", action = act.ReloadConfiguration },
 	{ key = "r", mods = "SHIFT|CTRL", action = act.ReloadConfiguration },
 	{ key = "r", mods = "SUPER", action = act.ReloadConfiguration },
+	{ key = "h", mods = "CMD", action = act.HideApplication },
 	{ key = "Enter", mods = "ALT", action = act.ToggleFullScreen },
 }
 config.key_tables = {
